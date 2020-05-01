@@ -1,0 +1,18 @@
+
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+
+
+}
+
+.child {
+    flex: 0 1 25%; /* explanation below */
+    padding: 10px ;
+    font: 14px/22px "Lato", Arial, sans-serif;
+
+}

@@ -1,0 +1,15 @@
+
+<div class="parent" >
+<div *ngFor="let movie of movies "  class="child">
+    <a [title]="movie.title + ' details'" [routerLink]="['/movies/'+ movie.movieid]"><h4  style=" text-align: center;">{{movie.title}}</h4>
+        <img src="/assets/images/{{movie.title}}" alt="image" style="width:250px;height:350px ;">
+
+    </a>
+</div>
+</div>
+
+
+
+
+
+
